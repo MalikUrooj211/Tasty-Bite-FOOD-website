@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+header {
+    background-color: #222; /* Darker shade for the header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin: 0;
+}
+
+p {
+    color: #ccc; /* Light gray text */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333; /* Darker nav background */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ff9800; /* Orange hover effect */
+}
+
+/* Main Section Styles */
+#home {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff9800; /* Accent color for headings */
+    font-size: 2.5rem;
+}
+
+.recipe-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.recipe-card {
+    background-color: #333; /* Dark card background */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe-card h3 {
+    color: #fff;
+    margin-top: 15px;
+}
+
+#about {
+    padding: 50px;
+    background-color: #111; /* Slightly different shade for sections */
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #ccc;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #ccc;
+    margin: 0;
+}
+
+footer p a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #fff;
+}
